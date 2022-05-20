@@ -1,0 +1,25 @@
+# For In-Order = 1 , Out-Of-Order = 0
+In-Order = 1
+ALU-Units = 4
+FP-Units = 4
+LOAD_UNITS = 4
+STORE_UNITS = 4
+BRANCH_UNITS = 4
+WINDOW_SIZE = 40
+THREAD_NUM = 7
+# for Round-Roubin = 0 , First-Come-First-Serve = 1 , Shortest-Job-First = 2
+scheduler = 1
+# for Round-Robin use only
+slot = 10
+# set your latency for every instruction in your file like this:
+# load , store, alu, fp, branch, nop
+opCodeLatency = /home/karolinj_lareinea/FINAL/opcode1.dat
+# Threads path to files. 
+#example: please use the anaylzer script to analyze your trace.
+thread1 = /home/karolinj_lareinea/FINAL/bwave-analyzed.trc
+thread2 = /home/karolinj_lareinea/FINAL/bwave-analyzed.trc
+thread3 = /home/karolinj_lareinea/FINAL/deepsjeng-analyzed.trc
+thread4 = /home/karolinj_lareinea/FINAL/fotonik3d-analyzed.trc
+thread5 = /home/karolinj_lareinea/FINAL/fotonik3d-analyzed.trc
+thread6 = /home/karolinj_lareinea/FINAL/fotonik3d-analyzed.trc
+thread7 = /home/karolinj_lareinea/FINAL/fotonik3d-analyzed.trc
